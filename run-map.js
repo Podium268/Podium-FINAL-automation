@@ -1,8 +1,12 @@
 module.exports = {
 
-  //REMOVE OR PLACE COMMENT BELOW
-  /*
-  oddDayRuns: {
+  // ===============================================================
+  // =============== UNIFIED RUN MAP (1 → 18) ======================
+  // ===============================================================
+
+  runs: {
+
+    // ================= RUN 1 =================
     1: [
       { tierId: 10, startPage: 1,   endPage: 7 },
       { tierId: 10, startPage: 8,   endPage: 14 },
@@ -12,6 +16,7 @@ module.exports = {
       { tierId: 10, startPage: 36,  endPage: 42 }
     ],
 
+    // ================= RUN 2 =================
     2: [
       { tierId: 10, startPage: 43, endPage: 49 },
       { tierId: 10, startPage: 50, endPage: 56 },
@@ -21,6 +26,7 @@ module.exports = {
       { tierId: 10, startPage: 78, endPage: 84 }
     ],
 
+    // ================= RUN 3 =================
     3: [
       { tierId: 10, startPage: 85, endPage: 91 },
       { tierId: 10, startPage: 92, endPage: 98 },
@@ -30,6 +36,7 @@ module.exports = {
       { tierId: 10, startPage: 120, endPage: 126 }
     ],
 
+    // ================= RUN 4 =================
     4: [
       { tierId: 10, startPage: 127, endPage: 133 },
       { tierId: 10, startPage: 134, endPage: 140 },
@@ -39,6 +46,7 @@ module.exports = {
       { tierId: 10, startPage: 162, endPage: 168 }
     ],
 
+    // ================= RUN 5 =================
     5: [
       { tierId: 10, startPage: 169, endPage: 175 },
       { tierId: 10, startPage: 176, endPage: 182 },
@@ -48,6 +56,7 @@ module.exports = {
       { tierId: 10, startPage: 204, endPage: 210 }
     ],
 
+    // ================= RUN 6 =================
     6: [
       { tierId: 10, startPage: 211, endPage: 217 },
       { tierId: 10, startPage: 218, endPage: 224 },
@@ -55,10 +64,9 @@ module.exports = {
       { tierId: 10, startPage: 232, endPage: 238 },
       { tierId: 10, startPage: 239, endPage: 245 },
       { tierId: 10, startPage: 246, endPage: 252 }
-    ]
-  },
+    ],
 
-  evenDayRuns: {
+    // ================= RUN 7 =================
     7: [
       { tierId: 10, startPage: 253, endPage: 259 },
       { tierId: 10, startPage: 260, endPage: 266 },
@@ -68,6 +76,7 @@ module.exports = {
       { tierId: 10, startPage: 288, endPage: 293 }
     ],
 
+    // ================= RUN 8 =================
     8: [
       { tierId: 9, startPage: 1, endPage: 9 },
       { tierId: 9, startPage: 10, endPage: 18 },
@@ -77,6 +86,7 @@ module.exports = {
       { tierId: 9, startPage: 46, endPage: 53 }
     ],
 
+    // ================= RUN 9 =================
     9: [
       { tierId: 9, startPage: 54, endPage: 62 },
       { tierId: 9, startPage: 63, endPage: 71 },
@@ -86,6 +96,7 @@ module.exports = {
       { tierId: 8, startPage: 12, endPage: 22 }
     ],
 
+    // ================= RUN 10 =================
     10: [
       { tierId: 8, startPage: 23, endPage: 33 },
       { tierId: 8, startPage: 34, endPage: 44 },
@@ -95,6 +106,7 @@ module.exports = {
       { tierId: 8, startPage: 78, endPage: 90 }
     ],
 
+    // ================= RUN 11 =================
     11: [
       { tierId: 7, startPage: 1, endPage: 11 },
       { tierId: 7, startPage: 12, endPage: 22 },
@@ -104,6 +116,7 @@ module.exports = {
       { tierId: 7, startPage: 56, endPage: 66 }
     ],
 
+    // ================= RUN 12 =================
     12: [
       { tierId: 7, startPage: 67, endPage: 77 },
       { tierId: 7, startPage: 78, endPage: 88 },
@@ -111,68 +124,67 @@ module.exports = {
       { tierId: 7, startPage: 100, endPage: 110 },
       { tierId: 7, startPage: 111, endPage: 121 },
       { tierId: 7, startPage: 122, endPage: 127 }
-    ]
-  } //REMOVE OR PLACE COMMENT BELOW 
-  */
-  
-  //===============================================================
-  // =========== LEVELS 20 TO 34 ==================================
-  //===============================================================
-  // COMMENT BELOW
-  
-  evenDayRuns: { // change even or add according to convenience
-    1: [
-      { tierId: 6, startPage: 1,   endPage: 12 },
-      { tierId: 6, startPage: 13,  endPage: 24 },
-      { tierId: 6, startPage: 25,  endPage: 36 },
-      { tierId: 6, startPage: 37,  endPage: 48 },
-      { tierId: 6, startPage: 49,  endPage: 60 },
-      { tierId: 6, startPage: 61,  endPage: 72 }
     ],
-    
-    2: [
-      { tierId: 6, startPage: 73,  endPage: 84 },
-      { tierId: 6, startPage: 85,  endPage: 96 },
-      { tierId: 6, startPage: 97,  endPage: 108 },
+
+    // ================= RUN 13 =================
+    13: [
+      { tierId: 6, startPage: 1, endPage: 12 },
+      { tierId: 6, startPage: 13, endPage: 24 },
+      { tierId: 6, startPage: 25, endPage: 36 },
+      { tierId: 6, startPage: 37, endPage: 48 },
+      { tierId: 6, startPage: 49, endPage: 60 },
+      { tierId: 6, startPage: 61, endPage: 72 }
+    ],
+
+    // ================= RUN 14 =================
+    14: [
+      { tierId: 6, startPage: 73, endPage: 84 },
+      { tierId: 6, startPage: 85, endPage: 96 },
+      { tierId: 6, startPage: 97, endPage: 108 },
       { tierId: 6, startPage: 109, endPage: 120 },
       { tierId: 6, startPage: 121, endPage: 132 },
       { tierId: 6, startPage: 133, endPage: 145 }
     ],
-    
-    3: [
-      { tierId: 5, startPage: 1,   endPage: 16 },
-      { tierId: 5, startPage: 17,  endPage: 32 },
-      { tierId: 5, startPage: 33,  endPage: 48 },
-      { tierId: 5, startPage: 49,  endPage: 64 },
-      { tierId: 5, startPage: 65,  endPage: 80 },
-      { tierId: 5, startPage: 81,  endPage: 96 }
+
+    // ================= RUN 15 =================
+    15: [
+      { tierId: 5, startPage: 1, endPage: 16 },
+      { tierId: 5, startPage: 17, endPage: 32 },
+      { tierId: 5, startPage: 33, endPage: 48 },
+      { tierId: 5, startPage: 49, endPage: 64 },
+      { tierId: 5, startPage: 65, endPage: 80 },
+      { tierId: 5, startPage: 81, endPage: 96 }
     ],
-    
-    4: [
-      { tierId: 5, startPage: 97,  endPage: 112 },
+
+    // ================= RUN 16 =================
+    16: [
+      { tierId: 5, startPage: 97, endPage: 112 },
       { tierId: 5, startPage: 113, endPage: 128 },
       { tierId: 5, startPage: 129, endPage: 144 },
       { tierId: 5, startPage: 145, endPage: 160 },
       { tierId: 5, startPage: 161, endPage: 176 },
       { tierId: 5, startPage: 177, endPage: 194 }
     ],
-    
-    5: [
-      { tierId: 4, startPage: 1,   endPage: 16 },
-      { tierId: 4, startPage: 17,  endPage: 32 },
-      { tierId: 4, startPage: 33,  endPage: 48 },
-      { tierId: 4, startPage: 49,  endPage: 64 },
-      { tierId: 4, startPage: 65,  endPage: 80 },
-      { tierId: 4, startPage: 81,  endPage: 96 }
+
+    // ================= RUN 17 =================
+    17: [
+      { tierId: 4, startPage: 1, endPage: 16 },
+      { tierId: 4, startPage: 17, endPage: 32 },
+      { tierId: 4, startPage: 33, endPage: 48 },
+      { tierId: 4, startPage: 49, endPage: 64 },
+      { tierId: 4, startPage: 65, endPage: 80 },
+      { tierId: 4, startPage: 81, endPage: 96 }
     ],
-    
-    6: [
-      { tierId: 4, startPage: 97,  endPage: 112 },
+
+    // ================= RUN 18 =================
+    18: [
+      { tierId: 4, startPage: 97, endPage: 112 },
       { tierId: 4, startPage: 113, endPage: 128 },
       { tierId: 4, startPage: 129, endPage: 144 },
       { tierId: 4, startPage: 145, endPage: 160 },
       { tierId: 4, startPage: 161, endPage: 176 },
       { tierId: 4, startPage: 177, endPage: 197 }
     ]
-  } // comment here
+
+  }
 };
