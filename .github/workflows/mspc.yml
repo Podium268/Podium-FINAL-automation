@@ -2,11 +2,15 @@ name: Run mspc.js
 
 on:
   workflow_dispatch:
+    inputs:
+      run_number:
+        description: 'Run number to execute (1–18)'
+        required: true
+        type: string
 
 jobs:
   run-mspc:
     runs-on: ubuntu-22.04
-    # runs-on: ubuntu-latest (optional)
     timeout-minutes: 300
 
     steps:
@@ -45,6 +49,7 @@ jobs:
       - name: 🚀 Run mspc.js script
         run: node mspc.js
         env:
+          RUN_NUMBER: ${{ inputs.run_number }}
           LP_EMAIL: ${{ secrets.LP_EMAIL }}
           LP_PASSWORD: ${{ secrets.LP_PASSWORD }}
           LP_TELEPORT_URL: ${{ secrets.LP_TELEPORT_URL }}
