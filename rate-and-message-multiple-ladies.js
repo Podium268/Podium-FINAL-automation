@@ -7,9 +7,9 @@ module.exports = async function runRateAndMessageMultipleLadies(page, tierConfig
     // add all names you want to exclude
   ].map(n => n.toLowerCase())); // convert to lowercase for case-insensitive matching
 
-  const m1 = 'I know nothing with any certainty, but the sight of the stars makes me dream - Vincent van Gogh.	Have a happy weekend	★(◠‿◠)★	Max love to you';
-  const m2 = 'I know nothing with any certainty, but the sight of the stars makes me dream - Vincent van Gogh.	Have a happy weekend	★(◠‿◠)★';
-  const m3 = 'I know nothing with any certainty, but the sight of the stars makes me dream - Vincent van Gogh.	Have a happy weekend	★(◠‿◠)★	168h';
+  const m1 = 'A smile is a facelift that’s in everyone’s price range!	Amazing look gorgeous	(｡♥‿♥｡)	Max stars 4U';
+  const m2 = 'A smile is a facelift that’s in everyone’s price range!	Amazing look gorgeous	(｡♥‿♥｡)';
+  const m3 = 'A smile is a facelift that’s in everyone’s price range!	Amazing look gorgeous	(｡♥‿♥｡)	168h';
 
   const tabLabel = page._guid || 'T?'; //internal tab label in playwright
 
