@@ -46,27 +46,31 @@ module.exports = async function runRateAndMessageMultipleLadies(page, tierConfig
           const container = document.createElement('div');
           container.innerHTML = data.html;
 
-          const rows = container.querySelectorAll('tr');
+          const rows = container.querySelectorAll('tbody tr[id^="num"]');
           const results = [];
 
           rows.forEach(row => {
-            const guildCell = row.querySelector('.ranking-player-guild');
-            if (!guildCell) return;
-            const clubLink = guildCell.querySelector('a[href*="guilds.php"]');
-            if (!clubLink) return;
+            // guid check
+            const guildName = row
+            .querySelector('.ranking-player-guild .player-guild-logo-name')
+            ?.textContent.trim();
+            if (!guildName) return;
 
-            const profileLink = row.querySelector('a[href*="profile.php?id="]');
+            //extracting profile URL
+            const profileLink = row.querySelector('a[href*="ladygram.php"][href*="lady_id="]');
             if (!profileLink) return;
 
-            const profileMatch = profileLink.href.match(/id=(\d+)/);
+            const href = profileLink.getAttribute('href');
+            const profileMatch = href.match(/lady_id=(\d+)/);
             if (!profileMatch) return;
-
+            
             const profileId = profileMatch[1];
 
-            const chatBtn = row.querySelector('[onclick*="startPrivateChat"]');
+            // getting name and lady id from chat button
+            const chatBtn = row.querySelector('button[onclick^="startPrivateChat"]');
             if (!chatBtn) return;
 
-            const onclick = chatBtn.getAttribute('onclick');
+            const onclick = chatBtn.getAttribute('onclick') || '';
             const chatMatch = onclick.match(/startPrivateChat\((\d+),\s*'([^']+)'\)/);
             if (!chatMatch) return;
 
@@ -75,6 +79,11 @@ module.exports = async function runRateAndMessageMultipleLadies(page, tierConfig
 
             results.push({ profileId, ladyId, name });
           });
+          
+          // 🛡️ SAFETY NET
+          if (!results.length) {
+            console.warn('⚠️ No ladies collected on page',currentPage,'tier',tierId);
+          }
 
           return results;
         },
@@ -116,7 +125,7 @@ module.exports = async function runRateAndMessageMultipleLadies(page, tierConfig
   }
   
   console.log('⏸ Pausing for 30 seconds to allow manual cancellation...');
-  await page.waitForTimeout(30 * 1000); // 30 seconds time out
+  await page.waitForTimeout(30 * 30 * 1000); // 30 seconds time out
 
   // final SAFE profiles
   const finalProfiles = collectedLadies
