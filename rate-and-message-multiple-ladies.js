@@ -125,7 +125,7 @@ module.exports = async function runRateAndMessageMultipleLadies(page, tierConfig
   }
   
   console.log('⏸ Pausing for 30 seconds to allow manual cancellation...');
-  await page.waitForTimeout(30 * 1000); //30sec timeout
+  await page.waitForTimeout(5 * 1000); //30sec timeout
   
   const finalLadies = collectedLadies.filter(
     l => !excludedLadyNames.has(l.name.toLowerCase()) //removes excluded profiles
