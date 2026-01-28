@@ -136,7 +136,7 @@ module.exports = async function runRateAndMessageMultipleLadies(page, tierConfig
   // ─────────────────────────────────────────────
   for (let i = 0; i < finalLadies.length; i++) {
     const { profileId, ladyId, name } = finalLadies[i];
-    const url = `https://v3.g.ladypopular.com/ladygram.php?lady_id=${ladyId}`;
+    const url = `https://v3.g.ladypopular.com/ladygram.php?openprofile=true&game_id=int&lady_id=${ladyId}`;
     
     let caseType = 'case1';
     let ratingResult = null;
