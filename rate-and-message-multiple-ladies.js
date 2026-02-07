@@ -9,7 +9,7 @@ module.exports = async function runRateAndMessageMultipleLadies(page, tierConfig
 
   const m1 = 'In old times, your beauty would’ve been called witchcraft.';
   const m2 = 'In old times, your beauty would’ve been called witchcraft.'; //already won
-  const m3 = 'In old times, your beauty would’ve been called witchcraft.; //168
+  const m3 = 'In old times, your beauty would’ve been called witchcraft.'; //168
 
   const tabLabel = page._guid || 'T?'; //internal tab label in playwright
 
