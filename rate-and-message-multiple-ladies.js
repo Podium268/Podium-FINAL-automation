@@ -7,9 +7,9 @@ module.exports = async function runRateAndMessageMultipleLadies(page, tierConfig
     // add all names you want to exclude
   ].map(n => n.toLowerCase())); // convert to lowercase for case-insensitive matching
 
-  const m1 = 'Do you use the Sundrop flower for your beauty? Mother Gothel would be jealous.(Tangled movie reference)';
-  const m2 = 'Do you use the Sundrop flower for your beauty? Mother Gothel would be jealous.(Tangled movie reference)'; //already won
-  const m3 = 'Do you use the Sundrop flower for your beauty? Mother Gothel would be jealous.(Tangled movie reference)'; //168
+  const m1 = 'Eat the apple🍎, beauty. Let’s see what the mirror says. (Snow White reference)';
+  const m2 = 'Eat the apple🍎, beauty. Let’s see what the mirror says. (Snow White reference)'; //already won
+  const m3 = 'Eat the apple🍎, beauty. Let’s see what the mirror says. (Snow White reference)'; //168
 
   const tabLabel = page._guid || 'T?'; //internal tab label in playwright
 
