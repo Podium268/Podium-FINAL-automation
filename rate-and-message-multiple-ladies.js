@@ -7,9 +7,9 @@ module.exports = async function runRateAndMessageMultipleLadies(page, tierConfig
     // add all names you want to exclude
   ].map(n => n.toLowerCase())); // convert to lowercase for case-insensitive matching
 
-  const m1 = 'Today, I’ll just shower you with love and kisses.';
-  const m2 = 'Today, I’ll just shower you with love and kisses.'; //already won
-  const m3 = 'Today, I’ll just shower you with love and kisses.'; //168
+  const m1 = 'Medusa’s jealous that you’re stopping people in their tracks without turning them to stone.';
+  const m2 = 'Medusa’s jealous that you’re stopping people in their tracks without turning them to stone.'; //already won
+  const m3 = 'Medusa’s jealous that you’re stopping people in their tracks without turning them to stone.'; //168
 
   const tabLabel = page._guid || 'T?'; //internal tab label in playwright
 
