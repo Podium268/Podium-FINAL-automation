@@ -8,9 +8,9 @@ module.exports = async function runRateAndMessageMultipleLadies(page, tierConfig
     // add all names you want to exclude
   ].map(n => n.toLowerCase())); // convert to lowercase for case-insensitive matching
 
-  const m1 = 'Even the sunflowers would turn to look at you.🌻';
-  const m2 = 'Even the sunflowers would turn to look at you.🌻'; //already won
-  const m3 = 'Even the sunflowers would turn to look at you.🌻'; //168
+  const m1 = 'You’re sweeter than the bottom of a Cornetto cone.🍦';
+  const m2 = 'You’re sweeter than the bottom of a Cornetto cone.🍦'; //already won
+  const m3 = 'You’re sweeter than the bottom of a Cornetto cone.🍦'; //168
 
   const tabLabel = page._guid || 'T?'; //internal tab label in playwright
 
