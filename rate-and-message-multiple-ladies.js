@@ -151,7 +151,7 @@ module.exports = async function runRateAndMessageMultipleLadies(page, tierConfig
         '.main-info .lady-name',
         { timeout: 15000 }
       );
-
+await page.waitForTimeout(1200);
       //case determination
       const stars = page.locator('.lg-profile-podium-rating-layout .ratings .star');
       const starCount = await stars.count();
