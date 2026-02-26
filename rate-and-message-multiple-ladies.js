@@ -8,9 +8,9 @@ module.exports = async function runRateAndMessageMultipleLadies(page, tierConfig
     // add all names you want to exclude
   ].map(n => n.toLowerCase())); // convert to lowercase for case-insensitive matching
 
-  const m1 = 'Your vibe is like the forbidden fruit everyone wants a bite of.🍎';
-  const m2 = 'Your vibe is like the forbidden fruit everyone wants a bite of.🍎'; //already won
-  const m3 = 'Your vibe is like the forbidden fruit everyone wants a bite of.🍎'; //168
+  const m1 = 'Maleficent wouldn’t even dare to curse you. You’re too iconic.🖤';
+  const m2 = 'Maleficent wouldn’t even dare to curse you. You’re too iconic.🖤'; //already won
+  const m3 = 'Maleficent wouldn’t even dare to curse you. You’re too iconic.🖤'; //168
 
   const tabLabel = page._guid || 'T?'; //internal tab label in playwright
 
