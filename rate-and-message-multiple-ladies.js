@@ -15,9 +15,9 @@ module.exports = async function runRateAndMessageMultipleLadies(page, tierConfig
     // add all names you want to exclude
   ].map(n => n.toLowerCase())); // convert to lowercase for case-insensitive matching
 
-  const m1 = 'I am thankful that in a troubled world no calamity can prevent the return of spring - Helen Keller	🌿🌷	Wishing you a beautiful day!';
-  const m2 = 'I am thankful that in a troubled world no calamity can prevent the return of spring - Helen Keller	🌿🌷	Wishing you a beautiful day!'; //already won
-  const m3 = 'I am thankful that in a troubled world no calamity can prevent the return of spring - Helen Keller	🌿🌷	Wishing you a beautiful day!'; //168
+  const m1 = 'Hunger is the best sauce in the world - Miguel de Cervantes.		Wishing you a relaxing weekend!	🌼🍃';
+  const m2 = 'Hunger is the best sauce in the world - Miguel de Cervantes.		Wishing you a relaxing weekend!	🌼🍃'; //already won
+  const m3 = 'Hunger is the best sauce in the world - Miguel de Cervantes.		Wishing you a relaxing weekend!	🌼🍃'; //168
 
   const tabLabel = page._guid || 'T?'; //internal tab label in playwright
 
