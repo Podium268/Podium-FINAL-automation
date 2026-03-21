@@ -12,7 +12,8 @@ module.exports = async function runRateAndMessageMultipleLadies(page, tierConfig
     'Anistemi','AitacJm','Abhigya','May Fernandes','LadyDeeDee','Cat Woman','Metal Princess','Queen of_girls','Ferozekhan.lover','Fenty','Annie','Harley Quinn','mykasa','Kahh','Auralis','melissa',
     'Renata','Athenaya','zani ali','tiki1','Mikasapisame','derya','Queen C','Αννα','Nesryn','Marki','FΣΛЯLΣSS','Didiqn','VALERIA','𝓐𝓷𝓷𝓪','Marina Fathy','azhar','Aurora','Katherine_Amara',
     'Anastassia','CharShawn','CVRA','DOLCE MILK','darkknightfallen','Shenhe','Medyson','MI 997','Hellga','liseokk','gatsby_elle','Heeyat Sd','Zahra','Furiosa','Scarlett','MOON DANCER','Sea Smoke','Silver Gryphon',
-    'genesssa','TOMI xR','viksa','seyoung','ell','iskrus','Love_Damon','the legend','zizoo','sawako','Gracelan','danae','Susie','Lillian-Grace','Isra and Douaa','Jill','Soleilla','G.Giovanna','Mila','Ива Лени','Doviliukas',
+    'genesssa','TOMI xR','viksa','seyoung','ell','iskrus','Love_Damon','the legend','zizoo','sawako','Gracelan','danae','Susie','Lillian-Grace','Isra and Douaa','Jill','Soleilla','G.Giovanna','Mila','Ива Лени',
+    'Doviliukas','Iro',
     // add all names you want to exclude
   ].map(n => n.toLowerCase())); // convert to lowercase for case-insensitive matching
 
