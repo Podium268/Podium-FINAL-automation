@@ -1,7 +1,7 @@
 module.exports = {
 
   // ================= RUN 1 =================
-  /*1: [
+  1: [
     { tierId: 10, startPage: 1,   endPage: 7 },
     { tierId: 10, startPage: 8,   endPage: 14 },
     { tierId: 10, startPage: 15,  endPage: 21 },
@@ -18,9 +18,9 @@ module.exports = {
     { tierId: 10, startPage: 64, endPage: 70 },
     { tierId: 10, startPage: 71, endPage: 77 },
     { tierId: 10, startPage: 78, endPage: 84 }
-  ],*/
+  ],
 
- 1: [
+ /*1: [
    { tierId: 3, startPage: 1,   endPage: 50 },
    { tierId: 3, startPage: 51,  endPage: 100 },
    { tierId: 3, startPage: 101, endPage: 150 },
@@ -36,7 +36,7 @@ module.exports = {
    { tierId: 2, startPage: 172, endPage: 228 },
    { tierId: 2, startPage: 229, endPage: 284 },
    { tierId: 2, startPage: 285, endPage: 340 }
-  ],
+  ],*/
   
   // ================= RUN 3 =================
   3: [
