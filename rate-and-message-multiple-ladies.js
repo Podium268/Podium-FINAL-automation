@@ -17,9 +17,9 @@ module.exports = async function runRateAndMessageMultipleLadies(page, tierConfig
     // add all names you want to exclude
   ].map(n => n.toLowerCase())); // convert to lowercase for case-insensitive matching
 
-  const m1 = 'Smiling can trick your brain into happiness	🤍	Happy new week and Max stars 4U!	(◠‿◠)♡';
-  const m2 = 'Smiling can trick your brain into happiness	🤍	Happy new week!	(◠‿◠)♡'; //already won
-  const m3 = 'Smiling can trick your brain into happiness	🤍	Happy new week!	(◠‿◠)♡'; //168
+  const m1 = 'Traveler, your footprints are the only road, nothing else. Traveler, there is no road; you make your own path as you walk - Antonio Machado	👣🍂	Have a nice day! Max stars 4U	♥♥♥';
+  const m2 = 'Traveler, your footprints are the only road, nothing else. Traveler, there is no road; you make your own path as you walk - Antonio Machado	👣🍂	Have a nice day!	♥♥♥'; //already won
+  const m3 = 'Traveler, your footprints are the only road, nothing else. Traveler, there is no road; you make your own path as you walk - Antonio Machado	👣🍂	Have a nice day!	♥♥♥'; //168
 
   const tabLabel = page._guid || 'T?'; //internal tab label in playwright
 
