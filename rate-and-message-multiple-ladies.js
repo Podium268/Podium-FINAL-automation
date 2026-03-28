@@ -13,13 +13,14 @@ module.exports = async function runRateAndMessageMultipleLadies(page, tierConfig
     'Renata','Athenaya','zani ali','tiki1','Mikasapisame','derya','Queen C','Αννα','Nesryn','Marki','FΣΛЯLΣSS','Didiqn','VALERIA','𝓐𝓷𝓷𝓪','Marina Fathy','azhar','Aurora','Katherine_Amara',
     'Anastassia','CharShawn','CVRA','DOLCE MILK','darkknightfallen','Shenhe','Medyson','MI 997','Hellga','liseokk','gatsby_elle','Heeyat Sd','Zahra','Furiosa','Scarlett','MOON DANCER','Sea Smoke','Silver Gryphon',
     'genesssa','TOMI xR','viksa','seyoung','ell','iskrus','Love_Damon','the legend','zizoo','sawako','Gracelan','danae','Susie','Lillian-Grace','Isra and Douaa','Jill','Soleilla','G.Giovanna','Mila','Ива Лени',
-    'Doviliukas','Iro','My beautiful lady','Maryse','Reckless_ThinG','Danicawho','Surìe','Ever','Paris.Winter','G.Giovanna','perinaz','ash0101','Nata_','Ку-ку',
+    'Doviliukas','Iro','My beautiful lady','Maryse','Reckless_ThinG','Danicawho','Surìe','Ever','Paris.Winter','G.Giovanna','perinaz','ash0101','Nata_','Ку-ку','xox19mama91xox','Yelyah Williams','moana-22',
+    'billie','Ponnie','.Auksė','H W',
     // add all names you want to exclude
   ].map(n => n.toLowerCase())); // convert to lowercase for case-insensitive matching
 
-  const m1 = 'Traveler, your footprints are the only road, nothing else. Traveler, there is no road; you make your own path as you walk - Antonio Machado	👣🍂	Have a nice day! Max stars 4U	♥♥♥';
-  const m2 = 'Traveler, your footprints are the only road, nothing else. Traveler, there is no road; you make your own path as you walk - Antonio Machado	👣🍂	Have a nice day!	♥♥♥'; //already won
-  const m3 = 'Traveler, your footprints are the only road, nothing else. Traveler, there is no road; you make your own path as you walk - Antonio Machado	👣🍂	Have a nice day!	♥♥♥'; //168
+  const m1 = 'Happy weekend! Sorry for being annoying sometimes 👉👈 Here are some flowers for you (づ ◕‿◕ )づ 🌼🌷🌸💐🌻🌺🌸🌼💐🌺🌷🌻🌼🌸🌷💐🌺🌻🌸🌼🌻💐🌷🌺🌼🌸💐🌻🌷🌺🌼🌸🌺💐🌻🌷🌼🌸🌺🌻💐🌷🌼🌺🌸🌻💐🌼🌷🌺🌸💐🌻🌼🌷🌺🌸🌻💐🌼🌺🌷🌸🌻💐';
+  const m2 = 'Happy weekend! Sorry for being annoying sometimes 👉👈 Here are some flowers for you (づ ◕‿◕ )づ 🌼🌷🌸💐🌻🌺🌸🌼💐🌺🌷🌻🌼🌸🌷💐🌺🌻🌸🌼🌻💐🌷🌺🌼🌸💐🌻🌷🌺🌼🌸🌺💐🌻🌷🌼🌸🌺🌻💐🌷🌼🌺🌸🌻💐🌼🌷🌺🌸💐🌻🌼🌷🌺🌸🌻💐🌼🌺🌷🌸🌻💐'; //already won
+  const m3 = 'Happy weekend! Sorry for being annoying sometimes 👉👈 Here are some flowers for you (づ ◕‿◕ )づ 🌼🌷🌸💐🌻🌺🌸🌼💐🌺🌷🌻🌼🌸🌷💐🌺🌻🌸🌼🌻💐🌷🌺🌼🌸💐🌻🌷🌺🌼🌸🌺💐🌻🌷🌼🌸🌺🌻💐🌷🌼🌺🌸🌻💐🌼🌷🌺🌸💐🌻🌼🌷🌺🌸🌻💐🌼🌺🌷🌸🌻💐'; //168
 
   const tabLabel = page._guid || 'T?'; //internal tab label in playwright
 
