@@ -19,24 +19,6 @@ module.exports = {
     { tierId: 10, startPage: 71, endPage: 77 },
     { tierId: 10, startPage: 78, endPage: 84 }
   ],
-
- /*1: [
-   { tierId: 3, startPage: 1,   endPage: 50 },
-   { tierId: 3, startPage: 51,  endPage: 100 },
-   { tierId: 3, startPage: 101, endPage: 150 },
-   { tierId: 3, startPage: 151, endPage: 200 },
-   { tierId: 3, startPage: 201, endPage: 250 },
-   { tierId: 3, startPage: 251, endPage: 299 }
-  ],
-
-  2: [
-   { tierId: 2, startPage: 1,   endPage: 57 },
-   { tierId: 2, startPage: 58,  endPage: 114 },
-   { tierId: 2, startPage: 115, endPage: 171 },
-   { tierId: 2, startPage: 172, endPage: 228 },
-   { tierId: 2, startPage: 229, endPage: 284 },
-   { tierId: 2, startPage: 285, endPage: 340 }
-  ],*/
   
   // ================= RUN 3 =================
   3: [
@@ -196,6 +178,24 @@ module.exports = {
     { tierId: 4, startPage: 145, endPage: 160 },
     { tierId: 4, startPage: 161, endPage: 176 },
     { tierId: 4, startPage: 177, endPage: 193 }
-  ]
+  ],
+
+  /*19: [
+   { tierId: 3, startPage: 1,   endPage: 50 },
+   { tierId: 3, startPage: 51,  endPage: 100 },
+   { tierId: 3, startPage: 101, endPage: 150 },
+   { tierId: 3, startPage: 151, endPage: 200 },
+   { tierId: 3, startPage: 201, endPage: 250 },
+   { tierId: 3, startPage: 251, endPage: 299 }
+  ],
+
+  20: [
+   { tierId: 2, startPage: 1,   endPage: 57 },
+   { tierId: 2, startPage: 58,  endPage: 114 },
+   { tierId: 2, startPage: 115, endPage: 171 },
+   { tierId: 2, startPage: 172, endPage: 228 },
+   { tierId: 2, startPage: 229, endPage: 284 },
+   { tierId: 2, startPage: 285, endPage: 340 }
+  ]*/
 
 };
