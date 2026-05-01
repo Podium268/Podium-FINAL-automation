@@ -11,10 +11,10 @@ module.exports = async function runMultiTab(context) {
   ───────────────────────────── */
   const runNumber = Number(process.env.RUN_NUMBER);
 
-  if (!runNumber || runNumber < 1 || runNumber > 18 || !runMap[runNumber]) {
+  if (!runNumber || runNumber < 1 || runNumber > 20 || !runMap[runNumber]) {
     console.log('❌ Invalid or missing RUN_NUMBER');
     console.log(' Provided RUN_NUMBER:', process.env.RUN_NUMBER);
-    console.log(' Expected: 1 to 18');
+    console.log(' Expected: 1 to 20');
     console.log('🚪 Runner exiting safely');
     return;
   }
