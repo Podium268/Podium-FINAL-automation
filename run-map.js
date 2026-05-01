@@ -180,7 +180,7 @@ module.exports = {
     { tierId: 4, startPage: 177, endPage: 193 }
   ],
 
-  /*19: [
+  19: [
    { tierId: 3, startPage: 1,   endPage: 50 },
    { tierId: 3, startPage: 51,  endPage: 100 },
    { tierId: 3, startPage: 101, endPage: 150 },
@@ -196,6 +196,6 @@ module.exports = {
    { tierId: 2, startPage: 172, endPage: 228 },
    { tierId: 2, startPage: 229, endPage: 284 },
    { tierId: 2, startPage: 285, endPage: 340 }
-  ]*/
+  ]
 
 };
