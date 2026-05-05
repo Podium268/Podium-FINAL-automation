@@ -18,7 +18,7 @@ module.exports = async function runRateAndMessageMultipleLadies(page, tierConfig
     'Kaoda Twinkle','Албена К.','Gabriela Nieves','Andreeasophia','Simk','Doviliukas','Alexandra_Sunshine','SissyL','Anistemi','Edu','Анна','Melissa','May Fernandes','MILANA20','TigerLily','Hellga','Kim Miu','LadyDeeDee',
     'Grażka','Aya','Medyson','Metal Princess','mykasa','asli','xox19mama91xox','Kahh','Yelyah Williams','Susie','melissa','Renata','tiki1','Soleilla','Αννα','Ку-ку','Didiqn','𝓐𝓷𝓷𝓪','G.Giovanna','M A R I',
     'ღhelenaღ','ελενα','Stadiala','Anna','MALENA 2','Slađana','Wolf Howl','SEDRA','FΣΛЯLΣSS','Queen of_girls','Athenaya','Fenty','Cat Woman','Nata_','derya','zani ali','Mikasapisame','Auralis','Maria Julia OBrien','Marina Fathy',
-    'Aurora','Harley Quinn','Nesryn','VALERIA','azhar','Ferozekhan.lover','Abhigya','Queen C','Thynaël','HOPE HOD KETER','Ива Лени','Thyriah','Jane Jay','A Y A',
+    'Aurora','Harley Quinn','Nesryn','VALERIA','azhar','Ferozekhan.lover','Abhigya','Queen C','Thynaël','HOPE HOD KETER','Ива Лени','Thyriah','Jane Jay','A Y A','𐙚 aleksandra 𐙚','Mervė',
     // add all names you want to exclude
   ].map(n => n.toLowerCase())); // convert to lowercase for case-insensitive matching
 
