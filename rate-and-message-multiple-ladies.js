@@ -22,9 +22,9 @@ module.exports = async function runRateAndMessageMultipleLadies(page, tierConfig
     // add all names you want to exclude
   ].map(n => n.toLowerCase())); // convert to lowercase for case-insensitive matching
 
-  const m1 = 'Today Will Be A Good Day!(heart)';
-  const m2 = 'Today Will Be A Good Day!(heart)'; //already won
-  const m3 = 'Today Will Be A Good Day!(heart)'; //168
+  const m1 = 'Dont Let Monday Steal Your Sundy;) Have A Great Day!(heart)';
+  const m2 = 'Dont Let Monday Steal Your Sundy;) Have A Great Day!(heart)'; //already won
+  const m3 = 'Dont Let Monday Steal Your Sundy;) Have A Great Day!(heart)'; //168
 
   const tabLabel = page._guid || 'T?'; //internal tab label in playwright
 
